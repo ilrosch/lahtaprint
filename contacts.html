@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="Content-Language" content="ru" />
+    <title>ЛахтаПринт | Контакты</title>
+    <link rel="icon" href="img/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20230622214534" />
+  </head>
+
+  <body>
+    <main>
+      <section class="contacts">
+        <div class="container">
+          <h1 class="contacts__title">Контакты</h1>
+          <p class="contacts__text">Если у вас возникли вопросы, свяжитесь с нами удобным способом:</p>
+          <div class="contacts__social">
+            <a href="https://t.me/lahtaprint"
+              ><picture
+                ><source srcset="img/icons/telegram.webp" type="image/webp" />
+                <img src="img/icons/telegram.png" alt="Иконка Телеграма" class="contacts__img" /></picture
+            ></a>
+            <a href="https://vk.com/lahtaprint"
+              ><picture
+                ><source srcset="img/icons/vk.webp" type="image/webp" />
+                <img src="img/icons/vk.png" alt="Иконка Вконтакте" class="contacts__img" /></picture
+            ></a>
+            <a href="https://wa.me/message/GAHOFQ3AINRDM1"
+              ><picture
+                ><source srcset="img/icons/whatsapp.webp" type="image/webp" />
+                <img src="img/icons/whatsapp.png" alt="Иконка whatsapp" class="contacts__img" /></picture
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="submit">
+        <div class="container">
+          <div class="submit__block">
+            <div class="submit__col">
+              <form class="form" id="form">
+                <h2 class="form__title">Контактные данные</h2>
+                <p class="form__text">Оставьте контактные данные и мы обязательно свяжемся с вами</p>
+                <div>
+                  <input type="text" name="name" id="name" placeholder="Имя" minlength="2" required />
+                </div>
+                <div>
+                  <input type="text" name="last-name" id="last-name" placeholder="Фамилия" minlength="2" required />
+                </div>
+                <div>
+                  <input type="tel" name="tel" id="tel" placeholder="Телефон" />
+                </div>
+                <div>
+                  <input type="email" name="mail" id="mail" placeholder="E-mail" required />
+                </div>
+
+                <div class="checkbox">
+                  <input class="input-check" id = "check" type="checkbox" required/ >
+                  <p>Нажимая кнопку "Отправить", я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152 ФЗ "О персональных данных" на условиях и для целей, определенных в Согласии на обработку персональных данных. *</p>
+                </div>
+                <button class="submit__button" type="submit">Отправить</button>
+              </form>
+            </div>
+
+            <div class="submit__col">
+              <h2 class="submit__title">Оставьте заявку</h2>
+              <p class="submit__text">Мы сразу же перезвоним вам и обсудим заказ!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <script src="files/apps/inputmask.min.js?_v=20230622214534"></script>
+  <script src="files/apps/just-validate.min.js?_v=20230622214534"></script>
+  <script type="module" src="files/apps/main.js?_v=20230622214534"></script>
+</html>

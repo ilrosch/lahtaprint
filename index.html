@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="Content-Language" content="ru" />
+    <title>ЛахтаПринт</title>
+    <link rel="icon" href="img/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20230622214534" />
+  </head>
+
+  <body>
+    <main>
+      <section class="home">
+        <div class="container">
+          <div class="home__block">
+            <div class="home__col">
+              <div class="home__mobile">
+                <a href="#"><img class="home__logo" src="img/icons/logo.svg" alt="Логотип ЛахтаПринт" /></a>
+                <div class="burger">
+                  <div class="burger__item"></div>
+                </div>
+
+                <div class="home__menu home__menu--mobile">
+                  <ul class="home__list">
+                    <a href="#services" class="home__item">
+                      <li class="home__li">заказ</li>
+                    </a>
+
+                    <a href="#contact" class="home__item">
+                      <li class="home__li">адрес</li>
+                    </a>
+
+                    <a href="contacts.html" class="home__item">
+                      <li class="home__li">КОНТАКТЫ</li>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+
+              <h1 class="home__title">
+                копицентр <br />
+                типография <br />
+                3d печать
+              </h1>
+            </div>
+            <div class="home__col">
+              <picture
+                ><source srcset="img/home.webp" type="image/webp" />
+                <img class="home__bg" src="img/home.png" alt="Фоновое изображение - примеры наших работ"
+              /></picture>
+              <div class="home__menu">
+                <ul class="home__list">
+                  <a href="#services" class="home__item">
+                    <li class="home__li">заказ</li>
+                  </a>
+
+                  <a href="#contact" class="home__item">
+                    <li class="home__li">адрес</li>
+                  </a>
+
+                  <a href="contacts.html" class="home__item">
+                    <li class="home__li">КОНТАКТЫ</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about__block">
+            <div class="about__col">
+              <picture
+                ><source srcset="img/camera.webp" type="image/webp" />
+                <img src="img/camera.png" alt="Фотоаппарат" class="about__img"
+              /></picture>
+            </div>
+            <div class="about__col">
+              <div class="about__header">
+                <div class="about__b"></div>
+                <h2 class="about__title">о нас!</h2>
+              </div>
+
+              <p class="about__text">
+                Мы - копицентр в Приморском районе г.Санкт-Петербурга. Мы предлагаем разнообразный набор фотоуслуг: печать фотографий; печать ваших фотографий и изображений на различной сувенирной продукции: фото на документы; полиграфия ; 3D печать и другие услуги. <br />
+                Всегда рады нашим клиентам и готовы к работе!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="services">
+        <div class="container">
+          <picture
+            ><source srcset="img/services__bg.webp" type="image/webp" />
+            <img src="img/services__bg.png" alt="Фоновое изображение" class="services__bg"
+          /></picture>
+          <div class="services__block">
+            <div class="services__item">
+              <h2 class="services__header">фото <br />на документы</h2>
+              <a href="https://t.me/lahtaprint"><button class="services__button">заказать</button></a>
+            </div>
+
+            <div class="services__item">
+              <h2 class="services__header">скан копия</h2>
+              <a href="https://t.me/lahtaprint"><button class="services__button">заказать</button></a>
+            </div>
+
+            <div class="services__item">
+              <h2 class="services__header">фотосувениры</h2>
+              <a href="https://t.me/lahtaprint"><button class="services__button">заказать</button></a>
+            </div>
+
+            <div class="services__item">
+              <h2 class="services__header">полиграфия</h2>
+              <a href="https://t.me/lahtaprint"><button class="services__button">заказать</button></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="submit">
+        <div class="container">
+          <div class="submit__block">
+            <div class="submit__col">
+              <form class="form" id="form">
+                <h2 class="form__title">Контактные данные</h2>
+                <p class="form__text">Оставьте контактные данные и мы обязательно свяжемся с вами</p>
+                <div>
+                  <input type="text" name="name" id="name" placeholder="Имя" minlength="2" required />
+                </div>
+                <div>
+                  <input type="text" name="last-name" id="last-name" placeholder="Фамилия" minlength="2" required />
+                </div>
+                <div>
+                  <input type="tel" name="tel" id="tel" placeholder="Телефон" />
+                </div>
+                <div>
+                  <input type="email" name="mail" id="mail" placeholder="E-mail" required />
+                </div>
+
+                <div class="checkbox">
+                  <input class="input-check" id = "check" type="checkbox" required/ >
+                  <p>Нажимая кнопку "Отправить", я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152 ФЗ "О персональных данных" на условиях и для целей, определенных в Согласии на обработку персональных данных. *</p>
+                </div>
+                <button class="submit__button" type="submit">Отправить</button>
+              </form>
+            </div>
+
+            <div class="submit__col">
+              <h2 class="submit__title">Оставьте заявку</h2>
+              <p class="submit__text">Мы сразу же перезвоним вам и обсудим заказ!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="contact__block">
+            <div class="contact__col">
+              <h2 class="contact__title">Мы здесь!</h2>
+            </div>
+            <div class="contact__col">
+              <picture
+                ><source srcset="img/contact__bg.webp" type="image/webp" />
+                <img src="img/contact__bg.png" alt="Фоновое изображение"
+              /></picture>
+              <h3 class="contact__text">ул.Яхтенная 3к1</h3>
+            </div>
+          </div>
+        </div>
+        <div style="position: relative; width: 100%">
+          <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color: #eee; font-size: 12px; position: absolute; top: 0px">Санкт‑Петербург</a
+          ><a href="https://yandex.ru/maps/2/saint-petersburg/house/yakhtennaya_ulitsa_3k1/Z0kYdAZmS0YBQFtjfXV5dH5hYA==/?ll=30.216236%2C59.985223&utm_medium=mapframe&utm_source=maps&z=17" style="color: #eee; font-size: 12px; position: absolute; top: 14px">Яхтенная улица, 3к1 на карте Санкт‑Петербурга, ближайшее метро Беговая — Яндекс Карты</a
+          ><iframe src="https://yandex.ru/map-widget/v1/?ll=30.21623" width="100%" height="800" frameborder="1" allowfullscreen="true" style="position: relative"></iframe>
+        </div>
+
+        <a href="#"><button class="contact__button">оставьте отзыв</button></a>
+      </section>
+    </main>
+
+    <script src="files/apps/inputmask.min.js?_v=20230622214534"></script>
+    <script src="files/apps/just-validate.min.js?_v=20230622214534"></script>
+    <script type="module" src="files/apps/main.js?_v=20230622214534"></script>
+    <script src="js/app.min.js?_v=20230622214534"></script>
+  </body>
+</html>
